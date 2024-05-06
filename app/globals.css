@@ -14,7 +14,7 @@ body {
   margin: 0;
   background: linear-gradient(180deg, #6969e1, #7d2ecc);
   color: #f6f5f8;
-  padding: 20px; /* Add padding to the body */
+  padding: 20px;
 }
 
 .container {
@@ -28,7 +28,7 @@ table {
   border-spacing: 0;
   background-color: #fff;
   border-radius: 10px;
-  border: 5px solid #f2f2f2; /* Border color */
+  border: 5px solid #f2f2f2; 
   color: #333;
 }
 
@@ -38,13 +38,13 @@ th {
   color: #333;
   font-weight: bold;
   text-align: start;
-  padding: 8px;
+  padding: 1rem;
 }
 
 /* Style for table cells */
 td {
-  padding: 8px;
-  /* text-align: center; */
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
 }
 
 /* Hover effect for table rows */
