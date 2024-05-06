@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(180deg, #6969e1, #7d2ecc);
+  color: #f6f5f8;
+  padding: 20px; /* Add padding to the body */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 98%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 5px solid #f2f2f2; /* Border color */
+  color: #333;
+}
+
+/* Style for table headers */
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  text-align: start;
+  padding: 8px;
+}
+
+/* Style for table cells */
+td {
+  padding: 8px;
+  /* text-align: center; */
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
