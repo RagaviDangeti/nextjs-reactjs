@@ -22,11 +22,11 @@ export default function Home() {
       <table>
         <thead>
           <tr>
-            <th>Id</th>
-            <th>Url</th>
+            <th>ID</th>
+            <th>URL</th>
             <th>Title</th>
-            <th>Published Date</th>
-            <th>Product Count</th>
+            <th>Publish Date</th>
+            <th>Count</th>
           </tr>
         </thead>
         <tbody>
